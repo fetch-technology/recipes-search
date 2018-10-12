@@ -5,8 +5,3 @@ services:
     ports:
       - 9200:9200
       - 9300:9300
-
-  dejavu:
-    image: appbaseio/dejavu
-    ports:
-      - 1358:1358

@@ -27,7 +27,7 @@ const fuse = FuseBox.init({
 })
 
 const bundle = fuse.bundle('app')
-  .instructions('> main.js')
+  .instructions('> main.tsx')
 
 if (!production) {
   fuse.dev({ port: 4444, fallback: 'index.html' })
